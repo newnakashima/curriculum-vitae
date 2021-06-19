@@ -71,6 +71,15 @@
 ## 参画したプロジェクト一覧
 
 | No. | 概要 | 期間 | 人数 | ロール | 担当業務 | 参画フェーズ | 言語・OS・DB | その他ツール等 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 求人サイト | 2020/01〜現在 | 3〜5 | プログラマー | 詳細設計、実装 | 詳細設計、実装、テスト、リリース、運用 | PHP、Laravel、JavaScript、MySQL、Linux | GitHub、Backlog |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | B2C求人サイト | 2020/01〜現在 | 3〜5 | プログラマー | 詳細設計、実装 | 詳細設計、実装、テスト、リリース、運用 | PHP、Laravel、JavaScript、MySQL、Linux、Docker、DockerCompose | GitHub、Backlog、Chatwork |
+| 2 | B2C SNS | 2020/09〜現在 | 1〜3 | アーキテクト、プログラマー | 要件定義、基本設計、詳細設計、実装 | 要件定義、基本設計、詳細設計、実装 | TypeScript(Next.js)、JavaScript、Prisma(GraphQL)、MySQL、Linux | Asana、Chatwork |
+| 3 | B2B店舗向け業務アプリ | 2020/07〜現在 | 3〜5 | アーキテクト、プログラマー | 要件定義、基本設計、詳細設計、実装 | 要件定義、基本設計、詳細設計、実装、テスト、リリース、運用 | React、React Native、Next.js、TypeScript、JavaScript、Swift、C#、.NET Core、Blazor、MySQL、SQLite、Nginx、Linux、iOS、AWS Lambda、Amazon Aurora、Amazon RDS Proxy、AWS CDK | GitHub、Jooto、Slack |
+| 4 | B2Cヘルスケアアプリ | 2020/09〜2021/03 | 3〜5 | プログラマー | 詳細設計、実装 | 要件定義、基本設計、詳細設計、実装、テスト | TypeScript(React Native)、JavaScript、Swift、Realm、iOS | GitHub、Jooto、Slack |
+| 5 | B2B不動産アプリ | 2019/08〜2019/12 | 5〜10 | SE | 基本設計、詳細設計、一部実装 | 要件定義、基本設計、詳細設計、実装 | JavaScript(React Native)、PHP(FuelPHP)、MySQL、Realm、Apache、iOS、Android、Linux | Backlog、Skype |
+| 6 | 企業内ETLデータ分析基盤 | 2019/03〜2019/07 | 5〜10 | SE | インフラ設計 | 要件定義、基本設計、詳細設計、実装、テスト、リリース | Python(スクラッチ)、Asteria、AWS Glue、MySQL、Windows、AWS Lambda、Amazon VPC（VPCピアリング及びサブネット設計） | Backlog、Skype |
+| 7 | B2C携帯キャリア会員制サービス | 2017/11〜2019/02 | 5〜10 | 開発チームサブリーダー | 詳細設計、実装、テスト | 運用 | PHP(Yii)、MySQL、Redis、Linux、Nginx、Vagrant、Docker、DockerCompose | GitHub、Backlog、Skype、Slack |
+| 8 | B2B建設業界向けアプリ | 2017/07〜2017/09 | 3〜5 | プログラマー | 実装 | 要件定義、基本設計、詳細設計、実装 | C#(Xamarin)、PHP(自社フレームワーク)、iOS、Linux、PostgreSQL | - |
+| 9 | B2Bインターンマッチングアプリ | 2017/04〜2017/06 | 3〜5 | プログラマー | 実装 | 要件定義、基本設計、詳細設計、実装 | C#(Xamarin)、PHP(WordPress)、iOS、Android | - |
+
 
