@@ -23,7 +23,7 @@
 
 ### 得意な言語
 - PHP
-    - 最も経験年数が長く、Laravel のノウハウもあります。
+    - 最も経験年数が長く、Laravel の使用経験もあります。
 - JavaScript / TypeScript
     - PHP と同じくらい長く使っています。
     - React、Next.js、React Native 等を使用した開発経験があります。
