@@ -5,7 +5,7 @@ use std::{fs};
 fn main() {
     let file = fs::read_to_string("./data/skill-sheet.yaml")
         .expect("Something went wrong reading the file");
-    
+
     let docs = YamlLoader::load_from_str(&file).unwrap();
 
     let personal = personal_block(&docs[0]["personal"]);
@@ -91,12 +91,12 @@ fn self_introduction_block(self_introduction: &Yaml) -> String {
     let available =
         name_description_list(available_vec);
 
-    let languages_use_frequently_vec = 
+    let languages_use_frequently_vec =
         self_introduction["languages_use_frequently"].as_vec().unwrap();
-    let languages_use_frequently = 
+    let languages_use_frequently =
         name_description_list(languages_use_frequently_vec);
 
-    let languages_used_ever_vec = 
+    let languages_used_ever_vec =
         self_introduction["languages_used_ever"].as_vec().unwrap();
     let languages_used_ever =
         name_description_list(languages_used_ever_vec);
@@ -108,14 +108,14 @@ fn self_introduction_block(self_introduction: &Yaml) -> String {
 
     let middleware_used_ever_vec =
         self_introduction["middleware_used_ever"].as_vec().unwrap();
-    let middleware_used_ever = 
+    let middleware_used_ever =
         name_description_list(middleware_used_ever_vec);
-    
+
     let virtual_environment_use_frequently_vec =
         self_introduction["virtual_environment_use_frequently"].as_vec().unwrap();
     let virtual_environment_use_frequently =
         name_description_list(virtual_environment_use_frequently_vec);
-    
+
     let cloud_platform_use_frequently_vec =
         self_introduction["cloud_platform_use_frequently"].as_vec().unwrap();
     let cloud_platform_use_frequently =
