@@ -1,0 +1,243 @@
+personal:
+  name: newnakashima
+  birthday: 1983/09/05
+  gender: 男
+certificates:
+  name: LPIC レベル2
+  certified_at: 2018/06
+  comment: ''
+self_introduction:
+  available:
+    - name: プログラミング
+      descriptions:
+        - 特に Web プログラミングが得意です。サーバーサイドがメインですが、フロントエンドも対応可能です。
+    - name: コードレビュー
+      descriptions:
+        - 会社員時代には若手に対する教育も一部行っていました。
+    - name: 基本設計
+      descriptions:
+        - 主に AWS を使ったサーバー構成の設計を行うことが多いです。
+    - name: 詳細設計
+      descriptions:
+        - 詳細設計では、テーブル定義や画面仕様書作成など、実装のために必要な情報を整理する工程を担当することが多いです。
+  languages_use_frequently:
+    - name: PHP
+      descriptions:
+        - 最も経験年数が長く、Laravel を使用することが多いです。
+    - name: JavaScript / TypeScript
+      descriptions:
+        - PHP と同じくらい長く使っています。
+        - React、Next.js、React Native 等を使用した開発経験があります。
+        - socket.io を使った WebSocket でのリアルタイムコミュニケーション Web アプリの開発経験があります。
+  languages_used_ever:
+    - name: Swift
+      descriptions:
+        - iOS アプリ開発で使用
+    - name: Kotlin
+      descriptions:
+        - Android アプリ開発で使用
+    - name: C#
+      descriptions:
+        - iOS・Android クロスプラットフォーム開発で使用（Xamarin）
+        - .NET Framework、.NET Core を使った開発で使用
+        - AWS Lambda Function でのサーバーレス開発で使用
+    - name: Objective-C
+      descriptions:
+        - iOS アプリ開発で使用
+    - name: Java
+      descriptions:
+        - Android アプリ開発で使用
+        - Servlet を使った Web アプリ開発で使用
+    - name: Python
+      descriptions:
+        - Flask を使った Web アプリ開発で使用
+        - AWS Lambda Function でのサーバーレス開発で使用
+  middleware_use_frequently: 
+    - name: MySQL
+    - name: Nginx
+  middleware_used_ever:
+    - name: PostgreSQL
+    - name: SQL Server
+    - name: Apache
+    - name: IIS
+  virtual_environment_use_frequently:
+    - name: Docker
+    - name: DockerCompose
+    - name: Vagrant
+  cloud_platform_use_frequently:
+    - name: AWS
+      descriptions:
+        - 特に、Fargate や Lambda を使うことが多いです。
+        - VPC、RDS、EC2 なども使用できます。
+projects:
+  - description: B2B2C 教育系アプリ
+    term: 2021/09〜現在
+    members: 3〜5 
+    role: アーキテクト、プログラマー 
+    assigned_for: タスクマネジメント、詳細設計、実装
+    achievement: Next.js と Laravel を使用したSPAの開発
+    phase: 基本設計、詳細設計、実装、テスト
+    technology: PHP8系、Laravel8系、JavaScript/TypeScript、MySQL8系、Linux、Docker、DockerCompose, Amazon ECS Fargate
+    others: GitHub、Slack, Figma
+  - description: B2C求人サイト(複数)
+    term: 2020/01〜2021/08
+    members: 3〜5 
+    role: プログラマー 
+    assigned_for: 詳細設計、実装
+    achievement: Laravelの扱い方を習得。複数の求人Webサービスで開発を担当 
+    phase: 詳細設計、実装、テスト、リリース、運用
+    technology: PHP7系、Laravel5-6系、JavaScript、MySQL5系、Linux、Docker、DockerCompose 
+    others: GitHub、Backlog、Chatwork
+  - description: B2C SNS 
+    term: 2020/09〜2021/12 
+    members: 1〜3 
+    role: アーキテクト、プログラマー 
+    assigned_for: 要件定義、基本設計、詳細設計、実装 
+    achievement: GraphQL、Next.jsとサーバーサイドJavaScriptによるSPAの構築を習得 
+    phase: 要件定義、基本設計、詳細設計、実装 
+    technology: TypeScript(Next.js)、JavaScript、Prisma2(GraphQL)、MySQL8系、Linux 
+    others: Asana、Chatwork
+  - description: B2B店舗向け業務アプリ 
+    term: 2020/07〜2021/12 
+    members: 3〜5 
+    role: アーキテクト、プログラマー 
+    assigned_for: 要件定義、基本設計、詳細設計、実装 
+    achievement: AWSによるネットワーク構成を構築。RDS Proxyを使ったサーバーレスアーキテクチャを採用。 
+    phase: 要件定義、基本設計、詳細設計、実装、テスト、リリース、運用 
+    technology: React、React Native、Next.js、TypeScript、JavaScript、Swift5系、C#、.NET Core 3.1、Blazor、MySQL5系、SQLite、Nginx、Linux、iOS、AWS Lambda、Amazon Aurora、Amazon RDS Proxy、AWS CDK
+    others:  GitHub、Jooto、Slack
+  - description: B2Cヘルスケアアプリ 
+    term: 2020/09〜2021/03 
+    members: 1〜3 
+    role: プログラマー 
+    assigned_for: 詳細設計、実装 
+    achievement: React Native によるアプリのプロトタイピングを担当 
+    phase: 要件定義、基本設計、詳細設計、実装、テスト 
+    technology: TypeScript(React Native)、JavaScript、Swift5系、Realm、iOS 
+    others: GitHub、Jooto、Slack
+  - description: B2B不動産アプリ 
+    term: 2019/08〜2019/12 
+    members: 5〜10 
+    role: SE 
+    assigned_for: 基本設計、詳細設計、一部実装 
+    achievement: アプリの開発における要件定義・詳細設計を担当。React Native によるクロスプラットフォームモバイルアプリ開発、PHPによるサーバーサイド開発、AWS環境でのインフラ構築を担当
+    phase:  要件定義、基本設計、詳細設計、実装
+    technology: JavaScript(React Native)、PHP7系(FuelPHP)、MySQL5系、Realm、Apache、iOS、Android、Linux
+    others:  Backlog、Skype
+  - description: 企業内ETLデータ分析基盤 
+    term: 2019/03〜2019/07 
+    members: 5〜10 
+    role: SE 
+    assigned_for: インフラ設計 
+    achievement: 企業内ネットーワークとAWS環境を Direct Connect でつないだ環境において、社内の業務情報を AWS Glue に蓄積する基盤のAWSサービス構成の設計を担当
+    phase:  要件定義、基本設計、詳細設計、実装、テスト、リリース
+    technology: Python3系(スクラッチ)、Asteria、AWS Glue、MySQL、Windows、AWS Lambda、Amazon VPC（VPCピアリング及びサブネット設計）
+    others: Backlog、Skype
+  - description: B2C携帯キャリア会員制サービス
+    term: 2017/11〜2019/02
+    members: 5〜10
+    role: 開発チームサブリーダー
+    assigned_for: 詳細設計、実装、テスト
+    achievement: 運用フェーズにある Web サービスの保守・開発を担当。開発チーム内のサブリーダーとして新人の育成も一部担当。
+    phase: 運用
+    technology: PHP5〜7系(Yii1〜2)、MySQL、Redis、Linux、Nginx、Vagrant、Docker、DockerCompose
+    others: GitHub、Backlog、Skype、Slack
+  - description: B2B建設業界向けアプリ
+    term: 2017/07〜2017/09
+    members: 3〜5
+    role: プログラマー
+    assigned_for: 実装
+    achievement: Xamarinによるクロスプラットフォームモバイルアプリ開発を担当。
+    phase: 要件定義、基本設計、詳細設計、実装
+    technology: C#(Xamarin)、PHP5系(自社フレームワーク)、iOS、Android, Linux、PostgreSQL
+    others: '-'
+  - description: B2Bインターンマッチングアプリ
+    term: 2017/04〜2017/06
+    members: 3〜5
+    role: プログラマー
+    assigned_for: 実装
+    achievement: Xamarinによるクロスプラットフォームモバイルアプリ開発を担当。
+    phase: 要件定義、基本設計、詳細設計、実装
+    technology: C#(Xamarin)、PHP5系(WordPress)、iOS、Android
+    others: '-'
+  - description: 学習教材販売管理システム
+    term: 2016/12〜2017/03
+    members: 3〜5
+    role: プログラマー
+    assigned_for: 実装
+    achievement: Webサービスの管理画面開発を担当。Bootstrap3やjQueryによるUIの実装。カレンダーや、帳票の出力機能の実装。
+    phase: 実装
+    technology: PHP5系(自社フレームワーク)、jQuery、Bootstrap3、Apache、Linux、PostgreSQL
+    others: '-'
+  - description: B2Bリアルタイムオンラインホワイトボード
+    term: 2016/09〜2016/11
+    members: '1'
+    role: プログラマー
+    assigned_for: 詳細設計、実装、テスト
+    achievement: Node.js と WebSocket を使ったリアルタイムコミュニケーションアプリの開発を担当。SVGを使ったフリーハンドメモ機能の実装
+    phase: 詳細設計、実装、テスト
+    technology: C#(.NET Framework)、Node.js、IIS、SQL Server、JavaScript、WebSocket
+    others: '-'
+  - description: ガス配送システム
+    term: 2016/08〜2016/09
+    members: '3'
+    role: テスター
+    assigned_for: テスト
+    achievement: 汎用機のDBシステムのデバッグを担当
+    phase: テスト
+    technology: C#(.NET Framework)
+    others: '-'
+  - description: B2Cリゾートホテル予約システム
+    term: 2016/04〜2016/07
+    members: '1'
+    role: プログラマー
+    assigned_for: 実装
+    achievement: Java によるサーバーサイドの改修を担当。
+    phase: 実装
+    technology: Java1.4(Servlet)、JavaScript
+    others: '-'
+  - description: B2C自社開発ゲームプロトタイピング
+    term: 2016/01〜2016/03
+    members: '1'
+    role: プログラマー
+    assigned_for: 詳細設計、実装
+    achievement: WebSocket と Node.js を使ったリアルタイムゲームアプリケーションを開発。
+    phase: 詳細設計、実装
+    technology: JavaScript、Node.js、Nginx、WebSocket
+    others: '-'
+  - description: B2B農業情報システム
+    term: 2015/11〜2015/12
+    members: '2'
+    role: プログラマー
+    assigned_for: 実装
+    achievement: 天候などのデータを D3.js で可視化する機能を実装
+    phase: 実装
+    technology: PHP5系(WordPress)、MySQL、JavaScript、D3.js
+    others: '-'
+  - description: モバイルロケーションシステム
+    term: 2015/08〜2015/10
+    members: '2'
+    role: プログラマー
+    assigned_for: 実装
+    achievement: 位置情報を使った iOS アプリの開発を担当。サーバーサイドと連動して公共交通の現在位置をリアルタイムでアプリ上に表示
+    phase: 実装
+    technology: Objective-C(iOS)、PHP5系(自社フレームワーク)、PostgreSQL、Apache、Linux
+    others: '-'
+  - description: B2Cリゾートホテル予約システム
+    term: 2015/06〜2015/07
+    members: '1'
+    role: プログラマー
+    assigned_for: 実装
+    achievement: jQuery によるフロントエンドの改修
+    phase: 実装
+    technology: Java1.4(Servlet)、JavaScript、jQuery
+    others: '-'
+  - description: B2Cテレビ番組内アプリ
+    term: 2015/05
+    members: '3'
+    role: プログラマー
+    assigned_for: 実装
+    achievement: PHPを使った円グラフのレンダリング(GDを仕様)
+    phase: 実装
+    technology: PHP5系(自社フレームワーク)
+    others: '-'
