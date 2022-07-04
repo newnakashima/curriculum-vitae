@@ -1,0 +1,71 @@
+personal:
+  name: newnakashima
+  birthday: 1983/09/05
+  gender: 男
+certificates:
+  name: LPIC レベル2
+  certified_at: 2018/06
+  comment: ''
+self_introduction:
+  available:
+    - name: プログラミング
+      descriptions:
+        - 特に Web プログラミングが得意です。サーバーサイドがメインですが、フロントエンドも対応可能です。
+    - name: コードレビュー
+      descriptions:
+        - 会社員時代には若手に対する教育も一部行っていました。
+    - name: 基本設計
+      descriptions:
+        - 主に AWS を使ったサーバー構成の設計を行うことが多いです。
+    - name: 詳細設計
+      descriptions:
+        - 詳細設計では、テーブル定義や画面仕様書作成など、実装のために必要な情報を整理する工程を担当することが多いです。
+  languages_use_frequently:
+    - name: PHP
+      descriptions:
+        - 最も経験年数が長く、Laravel を使用することが多いです。
+    - name: JavaScript / TypeScript
+      descriptions:
+        - PHP と同じくらい長く使っています。
+        - React、Next.js、React Native 等を使用した開発経験があります。
+        - socket.io を使った WebSocket でのリアルタイムコミュニケーション Web アプリの開発経験があります。
+  languages_used_ever:
+    - name: Swift
+      descriptions:
+        - iOS アプリ開発で使用
+    - name: Kotlin
+      descriptions:
+        - Android アプリ開発で使用
+    - name: C#
+      descriptions:
+        - iOS・Android クロスプラットフォーム開発で使用（Xamarin）
+        - .NET Framework、.NET Core を使った開発で使用
+        - AWS Lambda Function でのサーバーレス開発で使用
+    - name: Objective-C
+      descriptions:
+        - iOS アプリ開発で使用
+    - name: Java
+      descriptions:
+        - Android アプリ開発で使用
+        - Servlet を使った Web アプリ開発で使用
+    - name: Python
+      descriptions:
+        - Flask を使った Web アプリ開発で使用
+        - AWS Lambda Function でのサーバーレス開発で使用
+  middleware_use_frequently: 
+    - name: MySQL
+    - name: Nginx
+  middleware_used_ever:
+    - name: PostgreSQL
+    - name: SQL Server
+    - name: Apache
+    - name: IIS
+  virtual_environment_use_frequently:
+    - name: Docker
+    - name: DockerCompose
+    - name: Vagrant
+  cloud_platform_use_frequently:
+    - name: AWS
+      descriptions:
+        - 特に、Fargate や Lambda を使うことが多いです。
+        - VPC、RDS、EC2 なども使用できます。
