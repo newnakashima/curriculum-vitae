@@ -98,9 +98,6 @@
     - VPC、RDS、EC2 なども使用できます。
 
 ### 参画したプロジェクト一覧
-### No.
-1
-
 ### 概要
 B2B2C 教育系アプリ
 
@@ -128,9 +125,6 @@ PHP8系、Laravel8系、JavaScript/TypeScript、MySQL8系、Linux、Docker、Doc
 ### その他ツール等
 GitHub、Slack, Figma
 ---
-### No.
-2
-
 ### 概要
 B2C求人サイト(複数)
 
@@ -158,9 +152,6 @@ PHP7系、Laravel5-6系、JavaScript、MySQL5系、Linux、Docker、DockerCompos
 ### その他ツール等
 GitHub、Backlog、Chatwork
 ---
-### No.
-3
-
 ### 概要
 B2C SNS
 
@@ -188,9 +179,6 @@ TypeScript(Next.js)、JavaScript、Prisma2(GraphQL)、MySQL8系、Linux
 ### その他ツール等
 Asana、Chatwork
 ---
-### No.
-4
-
 ### 概要
 B2B店舗向け業務アプリ
 
@@ -218,9 +206,6 @@ React、React Native、Next.js、TypeScript、JavaScript、Swift5系、C#、.NET
 ### その他ツール等
 GitHub、Jooto、Slack
 ---
-### No.
-5
-
 ### 概要
 B2Cヘルスケアアプリ
 
@@ -248,9 +233,6 @@ TypeScript(React Native)、JavaScript、Swift5系、Realm、iOS
 ### その他ツール等
 GitHub、Jooto、Slack
 ---
-### No.
-6
-
 ### 概要
 B2B不動産アプリ
 
@@ -278,9 +260,6 @@ JavaScript(React Native)、PHP7系(FuelPHP)、MySQL5系、Realm、Apache、iOS�
 ### その他ツール等
 Backlog、Skype
 ---
-### No.
-7
-
 ### 概要
 企業内ETLデータ分析基盤
 
@@ -308,9 +287,6 @@ Python3系(スクラッチ)、Asteria、AWS Glue、MySQL、Windows、AWS Lambda�
 ### その他ツール等
 Backlog、Skype
 ---
-### No.
-8
-
 ### 概要
 B2C携帯キャリア会員制サービス
 
@@ -338,9 +314,6 @@ PHP5〜7系(Yii1〜2)、MySQL、Redis、Linux、Nginx、Vagrant、Docker、Docke
 ### その他ツール等
 GitHub、Backlog、Skype、Slack
 ---
-### No.
-9
-
 ### 概要
 B2B建設業界向けアプリ
 
@@ -368,9 +341,6 @@ C#(Xamarin)、PHP5系(自社フレームワーク)、iOS、Android, Linux、Post
 ### その他ツール等
 無し
 ---
-### No.
-10
-
 ### 概要
 B2Bインターンマッチングアプリ
 
@@ -398,9 +368,6 @@ C#(Xamarin)、PHP5系(WordPress)、iOS、Android
 ### その他ツール等
 無し
 ---
-### No.
-11
-
 ### 概要
 学習教材販売管理システム
 
@@ -428,9 +395,6 @@ PHP5系(自社フレームワーク)、jQuery、Bootstrap3、Apache、Linux、Po
 ### その他ツール等
 無し
 ---
-### No.
-12
-
 ### 概要
 B2Bリアルタイムオンラインホワイトボード
 
@@ -458,9 +422,6 @@ C#(.NET Framework)、Node.js、IIS、SQL Server、JavaScript、WebSocket
 ### その他ツール等
 無し
 ---
-### No.
-13
-
 ### 概要
 ガス配送システム
 
@@ -488,9 +449,6 @@ C#(.NET Framework)
 ### その他ツール等
 無し
 ---
-### No.
-14
-
 ### 概要
 B2Cリゾートホテル予約システム
 
@@ -518,9 +476,6 @@ Java1.4(Servlet)、JavaScript
 ### その他ツール等
 無し
 ---
-### No.
-15
-
 ### 概要
 B2C自社開発ゲームプロトタイピング
 
@@ -548,9 +503,6 @@ JavaScript、Node.js、Nginx、WebSocket
 ### その他ツール等
 無し
 ---
-### No.
-16
-
 ### 概要
 B2B農業情報システム
 
@@ -578,9 +530,6 @@ PHP5系(WordPress)、MySQL、JavaScript、D3.js
 ### その他ツール等
 無し
 ---
-### No.
-17
-
 ### 概要
 モバイルロケーションシステム
 
@@ -608,9 +557,6 @@ Objective-C(iOS)、PHP5系(自社フレームワーク)、PostgreSQL、Apache、
 ### その他ツール等
 無し
 ---
-### No.
-18
-
 ### 概要
 B2Cリゾートホテル予約システム
 
@@ -638,9 +584,6 @@ Java1.4(Servlet)、JavaScript、jQuery
 ### その他ツール等
 無し
 ---
-### No.
-19
-
 ### 概要
 B2Cテレビ番組内アプリ
 
