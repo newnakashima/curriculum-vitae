@@ -26,29 +26,91 @@ fn main() {
     println!("{}", sheet);
 }
 
+fn render_as_table(headers: Vec<String>, data: Vec<Vec<String>>) -> String {
+    let header_row = format!("| {} |", headers.join(" | "));
+
+    let borders: Vec<&str> = headers.iter().map(|_| -> &str { "---" }).collect();
+
+    let border = format!("| {} |", borders.join("|"));
+
+    let data_rows: Vec<String> = data.iter().map(|d| { format!("| {} |", d.join(" | ")) } ).collect();
+    let rows = data_rows.join("\n");
+
+    return format!("
+{header_row}
+{border}
+{rows}
+");
+}
+
+fn render_as_key_value_map(headers: Vec<String>, data: Vec<Vec<String>>) -> String {
+    let mut data_blocks: Vec<String> = vec![];
+    for line in data {
+        let mut inner_block: Vec<String> = vec![];
+        for (i, d) in line.iter().enumerate() {
+            let mut block = String::from("").to_owned();
+            let header = &headers[i];
+            block.push_str(&format!("### {header}
+{d}
+"));
+            inner_block.push(block);
+        }
+        data_blocks.push(inner_block.join("\n"));
+    }
+
+    return data_blocks.join("---\n");
+}
+
 fn personal_block(personal: &Yaml) -> String {
-    let name = personal["name"].as_str().unwrap();
-    let birthday = personal["birthday"].as_str().unwrap();
-    let gender = personal["gender"].as_str().unwrap();
+    let name = personal["name"].as_str().unwrap().to_string();
+    let birthday = personal["birthday"].as_str().unwrap().to_string();
+    let gender = personal["gender"].as_str().unwrap().to_string();
+
+    let headers = vec![
+        String::from("名前"),
+        String::from("生年月日"),
+        String::from("性別"),
+    ];
+
+    let data = vec![
+        vec![
+            name,
+            birthday,
+            gender,
+        ],
+    ];
+
+    let table = render_as_table(headers, data);
 
     return format!("
 ## 個人情報
-| 名前 | 生年月日 | 性別 |
-| --- | --- | --- |
-| {name} | {birthday} | {gender} |
+{table}
 ");
 }
 
 fn certificates_block(certificates: &Yaml) -> String {
-    let name = certificates["name"].as_str().unwrap();
-    let certified_at = certificates["certified_at"].as_str().unwrap();
-    let comment = certificates["comment"].as_str().unwrap();
+    let name = certificates["name"].as_str().unwrap().to_string();
+    let certified_at = certificates["certified_at"].as_str().unwrap().to_string();
+    let comment = certificates["comment"].as_str().unwrap().to_string();
+
+    let headers = vec![
+        String::from("名前"),
+        String::from("取得年月"),
+        String::from("備考"),
+    ];
+    let data = vec![
+        vec![
+            name,
+            certified_at,
+            comment,
+        ]
+    ];
+
+    let table = render_as_table(headers, data);
 
     return format!("
 ## 資格
-| 名前 | 取得年月 | 備考 |
-| --- | --- | --- |
-| {name} | {certified_at} | {comment} |
+{table}
 ")
 }
 
@@ -141,28 +203,58 @@ fn self_introduction_block(self_introduction: &Yaml) -> String {
 
 fn projects_block(projects: &Yaml) -> String {
     let projects = projects.as_vec().unwrap();
-    let mut list: Vec<String> = vec![];
+    // let mut list: Vec<String> = vec![];
+    let headers = vec![
+        String::from("No."),
+        String::from("概要"),
+        String::from("期間"),
+        String::from("人数"),
+        String::from("ロール"),
+        String::from("担当業務"),
+        String::from("習得スキル・実績"),
+        String::from("参画フェーズ"),
+        String::from("言語・OS・DB"),
+        String::from("その他ツール等"),
+    ];
+
+    let mut data: Vec<Vec<String>> = vec![];
 
     for (i, p) in projects.iter().enumerate() {
-        let description = p["description"].as_str().unwrap();
-        let term = p["term"].as_str().unwrap();
-        let members = p["members"].as_str().unwrap();
-        let role = p["role"].as_str().unwrap();
-        let assigned_for = p["assigned_for"].as_str().unwrap();
-        let achievement = p["achievement"].as_str().unwrap();
-        let phase = p["phase"].as_str().unwrap();
-        let technology = p["technology"].as_str().unwrap();
-        let others = p["others"].as_str().unwrap();
+        let description = p["description"].as_str().unwrap().to_string();
+        let term = p["term"].as_str().unwrap().to_string();
+        let members = p["members"].as_str().unwrap().to_string();
+        let role = p["role"].as_str().unwrap().to_string();
+        let assigned_for = p["assigned_for"].as_str().unwrap().to_string();
+        let achievement = p["achievement"].as_str().unwrap().to_string();
+        let phase = p["phase"].as_str().unwrap().to_string();
+        let technology = p["technology"].as_str().unwrap().to_string();
+        let others = p["others"].as_str().unwrap().to_string();
 
-        let mut owned = format!("| {} | {description} | {term} | {members} | {role} ", i + 1).to_owned();
-        owned.push_str(&format!("| {assigned_for} | {achievement} | {phase} | {technology} | {others} |"));
-        list.push(owned);
+        let index = (i + 1).to_string();
+
+        let line = vec![
+            index,
+            description,
+            term,
+            members,
+            role,
+            assigned_for,
+            achievement,
+            phase,
+            technology,
+            others,
+        ];
+
+        let mapped = line.iter().map(|l| {
+            if l == "" {
+                return String::from("無し");
+            }
+            return String::from(l);
+        }).collect();
+
+        data.push(mapped);
     }
 
-    let projects_str = list.join("\n");
-
-    return format!("
-| No. | 概要 | 期間 | 人数 | ロール | 担当業務 | 習得スキル・実績 | 参画フェーズ | 言語・OS・DB | その他ツール等 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-{projects_str}")
+    return render_as_key_value_map(headers, data);
+    // return render_as_table(headers, data);
 }
