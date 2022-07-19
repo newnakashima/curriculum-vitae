@@ -205,7 +205,6 @@ fn projects_block(projects: &Yaml) -> String {
     let projects = projects.as_vec().unwrap();
     // let mut list: Vec<String> = vec![];
     let headers = vec![
-        String::from("No."),
         String::from("概要"),
         String::from("期間"),
         String::from("人数"),
@@ -230,10 +229,7 @@ fn projects_block(projects: &Yaml) -> String {
         let technology = p["technology"].as_str().unwrap().to_string();
         let others = p["others"].as_str().unwrap().to_string();
 
-        let index = (i + 1).to_string();
-
         let line = vec![
-            index,
             description,
             term,
             members,
