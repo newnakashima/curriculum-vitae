@@ -70,7 +70,7 @@ fn render_as_key_value_map(headers: Vec<String>, data: Vec<Vec<String>>) -> Stri
         data_blocks.push(inner_block.join("\n"));
     }
 
-    return data_blocks.join("---\n");
+    return data_blocks.join("\n---\n");
 }
 
 fn personal_block(personal: &Yaml) -> String {
