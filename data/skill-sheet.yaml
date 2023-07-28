@@ -2,10 +2,6 @@ personal:
   name: newnakashima
   birthday: 1983/09/05
   gender: 男
-certificates:
-  name: LPIC レベル2
-  certified_at: 2018/06
-  comment: ''
 self_introduction:
   available:
     - name: プログラミング
@@ -71,7 +67,7 @@ self_introduction:
         - VPC、RDS、EC2 なども使用できます。
 projects:
   - description: B2B2C 教育系アプリ
-    term: 2021/09〜現在
+    term: 2021/09〜2023/06
     members: 3〜5
     role: アーキテクト、プログラマー
     assigned_for: タスクマネジメント、詳細設計、実装

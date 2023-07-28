@@ -1,8 +1,20 @@
 extern crate yaml_rust;
+extern crate getopts;
 use yaml_rust::{YamlLoader, Yaml};
-use std::{fs};
+use std::fs;
+use getopts::Options;
 
 fn main() {
+    let args: Vec<String> = std::env::args().collect();
+    let mut opts = Options::new();
+    opts.optflag("t", "table", "print skill-sheet as table");
+    let matches = match opts.parse(&args[1..]) {
+        Ok(m) => { m }
+        Err(f) => { panic!("{}", f.to_string()) }
+    };
+
+    let render_table = matches.opt_present("t");
+
     let file = fs::read_to_string("./data/skill-sheet.yaml")
         .expect("Something went wrong reading the file");
 
@@ -11,7 +23,7 @@ fn main() {
     let personal = personal_block(&docs[0]["personal"]);
     let certificates = certificates_block( &docs[0]["certificates"]);
     let self_introduction = self_introduction_block(&docs[0]["self_introduction"]);
-    let projects = projects_block(&docs[0]["projects"]);
+    let projects = projects_block(&docs[0]["projects"], render_table);
 
     let sheet = format!("
 # スキルシート
@@ -89,6 +101,10 @@ fn personal_block(personal: &Yaml) -> String {
 }
 
 fn certificates_block(certificates: &Yaml) -> String {
+    if certificates.as_vec().is_none() {
+        return String::from("");
+    }
+
     let name = certificates["name"].as_str().unwrap().to_string();
     let certified_at = certificates["certified_at"].as_str().unwrap().to_string();
     let comment = certificates["comment"].as_str().unwrap().to_string();
@@ -201,7 +217,7 @@ fn self_introduction_block(self_introduction: &Yaml) -> String {
 {cloud_platform_use_frequently}")
 }
 
-fn projects_block(projects: &Yaml) -> String {
+fn projects_block(projects: &Yaml, render_table: bool) -> String {
     let projects = projects.as_vec().unwrap();
     // let mut list: Vec<String> = vec![];
     let headers = vec![
@@ -218,7 +234,7 @@ fn projects_block(projects: &Yaml) -> String {
 
     let mut data: Vec<Vec<String>> = vec![];
 
-    for (i, p) in projects.iter().enumerate() {
+    for (_i, p) in projects.iter().enumerate() {
         let description = p["description"].as_str().unwrap().to_string();
         let term = p["term"].as_str().unwrap().to_string();
         let members = p["members"].as_str().unwrap().to_string();
@@ -251,6 +267,8 @@ fn projects_block(projects: &Yaml) -> String {
         data.push(mapped);
     }
 
-    return render_as_key_value_map(headers, data);
-    // return render_as_table(headers, data);
+    return match render_table {
+        true => render_as_table(headers, data),
+        false => render_as_key_value_map(headers, data),
+    };
 }
