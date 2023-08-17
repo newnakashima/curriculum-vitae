@@ -31,7 +31,10 @@ fn main() {
 {personal}
 {certificates}
 {self_introduction}
-### 参画したプロジェクト一覧
+<div style=\"break-before: page;\"></div>
+
+# 参画したプロジェクト一覧
+
 {projects}
 ");
 
@@ -62,15 +65,19 @@ fn render_as_key_value_map(headers: Vec<String>, data: Vec<Vec<String>>) -> Stri
         for (i, d) in line.iter().enumerate() {
             let mut block = String::from("").to_owned();
             let header = &headers[i];
-            block.push_str(&format!("### {header}
+            if i == 0 {
+                block.push_str(&format!("## {d}\n"));
+            } else {
+                block.push_str(&format!("### {header}
 {d}
 "));
+            }
             inner_block.push(block);
         }
         data_blocks.push(inner_block.join("\n"));
     }
 
-    return data_blocks.join("\n---\n");
+    return data_blocks.join("\n<div style=\"break-before: page\"></div>\n\n");
 }
 
 fn personal_block(personal: &Yaml) -> String {
