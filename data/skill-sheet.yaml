@@ -1,5 +1,5 @@
 personal:
-  name: newnakashima
+  name: 中島剛史
   birthday: 1983/09/05
   gender: 男
 self_introduction:
@@ -66,8 +66,17 @@ self_introduction:
         - 特に、Fargate や Lambda を使うことが多いです。
         - VPC、RDS、EC2 なども使用できます。
 projects:
+  - description: B2B サロンDXアプリ
+    term: 2023/09〜
+    members: 3〜5人
+    role: プログラマー
+    assigned_for:
+    achievement:
+    phase:
+    technology: PHP8系、Laravel8系、JavaScript、MySQL8系、Linux、Docker、DockerCompose, Amazon EC2
+    others: GitHub、Slack、Figma
   - description: B2B2C 教育系アプリ
-    term: 2021/09〜2023/02
+    term: 2021/09〜2023/06
     members: 6〜10人
     role: アーキテクト、プログラマー
     assigned_for: プロジェクトの初期構築から関わっていたため、タスクマネジメント、要件定義、基本設計、詳細設計、実装、テスト、運用・保守など、一通りのサイクルを担当させていただきました。
