@@ -70,10 +70,10 @@ projects:
     term: 2023/09〜
     members: 3〜5人
     role: プログラマー
-    assigned_for:
-    achievement:
-    phase:
-    technology: PHP8系、Laravel8系、JavaScript、MySQL8系、Linux、Docker、DockerCompose, Amazon EC2
+    assigned_for: プログラマーとして詳細設計や実装を担当しています。
+    achievement: Laravelを使った開発を担当しています。リファクタリングなどのコードベースの改善に課題意識を持って取り組んでいます。
+    phase: 詳細設計、実装
+    technology: PHP8系、Laravel9系、JavaScript、MySQL8系、Linux、Docker、DockerCompose, Amazon EC2
     others: GitHub、Slack、Figma
   - description: B2B2C 教育系アプリ
     term: 2021/09〜2023/06
