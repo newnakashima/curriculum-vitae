@@ -94,8 +94,61 @@
 
 # 参画したプロジェクト一覧
 
-※直近三件のみ記載。<br/>
-それ以前については https://github.com/newnakashima/curriculum-vitae/blob/main/src/skill-sheet.md を御覧ください。
+## B2B DXアプリプラットフォーム
+
+### 期間
+2024/2〜
+
+### 人数
+3〜5人
+
+### ロール
+アーキテクト、プログラマー
+
+### 担当業務
+アプリケーションのマルチテナント化の設計、移行計画の策定、実装を担当しています。
+
+### 習得スキル・実績
+EC2上で動いているアプリケーションのECS Fargateへの移行を行いました。また、アプリケーションのマルチテナント化を行いました。
+
+### 参画フェーズ
+インフラ設計、実装
+
+### 言語・OS・DB
+Laravel、PHP8系、JavaScript、MySQL8系、Linux、Docker、DockerCompose, Amazon EC2、Amazon ECS Fargate
+
+### その他ツール等
+GitHub、Slack、Figma
+
+<div style="break-before: page"></div>
+
+## B2B サーバーレスAPI
+
+### 期間
+2023/12〜
+
+### 人数
+3〜5人
+
+### ロール
+アーキテクト、プログラマー
+
+### 担当業務
+AWS設計、詳細設計、実装を担当しています。
+
+### 習得スキル・実績
+NestJSを使った短納期でのサーバーレスAPIを立ち上げました。
+
+### 参画フェーズ
+インフラ設計、詳細設計、実装
+
+### 言語・OS・DB
+TypeScript、NestJS、AWS Lambda、API Gateway
+
+### その他ツール等
+GitHub、Slack、Figma
+
+<div style="break-before: page"></div>
 
 ## B2B サロンDXアプリ
 

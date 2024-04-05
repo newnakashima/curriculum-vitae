@@ -35,9 +35,6 @@ fn main() {
 
 # 参画したプロジェクト一覧
 
-※直近三件のみ記載。<br/>
-それ以前については https://github.com/newnakashima/curriculum-vitae/blob/main/src/skill-sheet.md を御覧ください。
-
 {projects}
 ");
 
