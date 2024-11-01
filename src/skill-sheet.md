@@ -34,7 +34,9 @@
 - JavaScript / TypeScript
     - PHP と同じくらい長く使っています。
     - React、Next.js、React Native 等を使用した開発経験があります。
-    - socket.io を使った WebSocket でのリアルタイムコミュニケーション Web アプリの開発経験があります。
+
+- Dart / Flutter
+    - Flutter を使った iOS, Android アプリの開発経験があります。
 
 ### 業務で使用したことのある言語
 
@@ -109,20 +111,20 @@
 アプリケーションのマルチテナント化の設計、移行計画の策定、実装を担当しています。
 
 ### 習得スキル・実績
-EC2上で動いているアプリケーションのECS Fargateへの移行を行いました。また、アプリケーションのマルチテナント化を行いました。
+EC2上で動いているアプリケーションのECS Fargateへの移行を行いました。また、アプリケーションのマルチテナント化を行いました。クライアントサイドの Flutter アプリを iOS, Android 両対応で開発しました。
 
 ### 参画フェーズ
 インフラ設計、実装
 
 ### 言語・OS・DB
-Laravel、PHP8系、JavaScript、MySQL8系、Linux、Docker、DockerCompose, Amazon EC2、Amazon ECS Fargate
+Laravel、PHP8系、JavaScript、MySQL8系、Linux、Docker、DockerCompose, Amazon EC2、Amazon ECS Fargate, Flutter
 
 ### その他ツール等
 GitHub、Slack、Figma
 
 <div style="break-before: page"></div>
 
-## B2B サーバーレスAPI
+## B2B サーバーレスアプリ
 
 ### 期間
 2023/12〜
@@ -134,26 +136,26 @@ GitHub、Slack、Figma
 アーキテクト、プログラマー
 
 ### 担当業務
-AWS設計、詳細設計、実装を担当しています。
+AWS設計、詳細設計、実装を担当しました。
 
 ### 習得スキル・実績
-NestJSを使った短納期でのサーバーレスAPIを立ち上げました。
+NestJSを使った短納期でのサーバーレスAPIを立ち上げました。Flutter で iPadOS アプリの開発も行いました。
 
 ### 参画フェーズ
 インフラ設計、詳細設計、実装
 
 ### 言語・OS・DB
-TypeScript、NestJS、AWS Lambda、API Gateway
+TypeScript、NestJS、AWS Lambda、API Gateway, Flutter
 
 ### その他ツール等
-GitHub、Slack、Figma
+GitHub、Slack、Figma, Backlog
 
 <div style="break-before: page"></div>
 
 ## B2B サロンDXアプリ
 
 ### 期間
-2023/09〜
+2023/09〜2023/11
 
 ### 人数
 3〜5人
@@ -162,10 +164,10 @@ GitHub、Slack、Figma
 プログラマー
 
 ### 担当業務
-プログラマーとして詳細設計や実装を担当しています。
+プログラマーとして詳細設計や実装を担当しました。
 
 ### 習得スキル・実績
-Laravelを使った開発を担当しています。リファクタリングなどのコードベースの改善に課題意識を持って取り組んでいます。
+Laravelを使った開発を担当しました。リファクタリングなどのコードベースの改善に取り組みました。
 
 ### 参画フェーズ
 詳細設計、実装
@@ -184,16 +186,16 @@ GitHub、Slack、Figma
 2021/09〜2023/06
 
 ### 人数
-6〜10人
+3〜5人
 
 ### ロール
 アーキテクト、プログラマー
 
 ### 担当業務
-プロジェクトの初期構築から関わっていたため、タスクマネジメント、要件定義、基本設計、詳細設計、実装、テスト、運用・保守など、一通りのサイクルを担当させていただきました。
+プロジェクトの初期構築から関わっていたため、基本設計、詳細設計、実装、テスト、運用など、一通りのサイクルを担当させていただきました。
 
 ### 習得スキル・実績
-Next.js と Laravel を使用したSPAを開発しました。メンバーの中で最も長くサービスに関わっていたため、技術面でのチームリーダーとして技術検証、技術選定を行いました。
+Next.js と Laravel を使用したSPAを開発しました。サービスの初期から関わっていたため、技術検証、技術選定を行いました。
 
 ### 参画フェーズ
 基本設計、詳細設計、実装、テスト
