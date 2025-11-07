@@ -1,5 +1,5 @@
 ## スキルシートビルド方法
 
 ```bash
-cargo run > src/skill-sheet.md
+cargo run >| src/skill-sheet.md
 ```

@@ -7,6 +7,9 @@ self_introduction:
     - name: プログラミング
       descriptions:
         - 特に Web プログラミングが得意です。サーバーサイドがメインですが、フロントエンドも対応可能です。
+    - name: AIコーディング
+      descriptions:
+        - AIコーディングエージェントを使ってコードを書いています。Claude Code を使うことが多いですが、Codex、Cursor、CodeRabbit、Copilot を組み合わせて利用しています。
     - name: コードレビュー
       descriptions:
         - 会社員時代には若手に対する教育も一部行っていました。
@@ -25,6 +28,9 @@ self_introduction:
         - PHP と同じくらい長く使っています。
         - React、Next.js、React Native 等を使用した開発経験があります。
         - socket.io を使った WebSocket でのリアルタイムコミュニケーション Web アプリの開発経験があります。
+    - name: Dart / Flutter
+      descriptions:
+        - Flutter を使った iOS, Android アプリの開発経験があります。
   languages_used_ever:
     - name: Swift
       descriptions:
@@ -67,29 +73,29 @@ self_introduction:
         - VPC、RDS、EC2 なども使用できます。
 projects:
   - description: B2B DXアプリプラットフォーム
-    term: 2024/2〜
+    term: 2024/2〜2025/9
     members: 3〜5人
     role: アーキテクト、プログラマー
-    assigned_for: アプリケーションのマルチテナント化の設計、移行計画の策定、実装を担当しています。
-    achievement: EC2上で動いているアプリケーションのECS Fargateへの移行を行いました。また、アプリケーションのマルチテナント化を行いました。
+    assigned_for: アプリケーションのマルチテナント化の設計、移行計画の策定、実装。Flutter で iOS, Android 両対応のアプリの開発・保守
+    achievement: EC2上で動いているアプリケーションのECS Fargateへの移行を行いました。また、アプリケーションのマルチテナント化を行いました。クライアントサイドの Flutter アプリを iOS, Android 両対応で開発しました。
     phase: インフラ設計、実装
-    technology: Laravel、PHP8系、JavaScript、MySQL8系、Linux、Docker、DockerCompose, Amazon EC2、Amazon ECS Fargate
+    technology: Laravel、PHP8系、JavaScript、MySQL8系、Linux、Docker、DockerCompose, Amazon EC2、Amazon ECS Fargate, Flutter
     others: GitHub、Slack、Figma
   - description: B2B サーバーレスAPI
-    term: 2023/12〜
+    term: 2023/12〜2025/9
     members: 3〜5人
     role: アーキテクト、プログラマー
-    assigned_for: AWS設計、詳細設計、実装を担当しています。
-    achievement: NestJSを使った短納期でのサーバーレスAPIを立ち上げました。
+    assigned_for: AWS設計、詳細設計、実装を担当しました。
+    achievement: NestJSを使った短納期でのサーバーレスAPIを立ち上げました。Flutter で iPadOS アプリの開発も行いました。
     phase: インフラ設計、詳細設計、実装
-    technology: TypeScript、NestJS、AWS Lambda、API Gateway
-    others: GitHub、Slack、Figma
+    technology: TypeScript、NestJS、AWS Lambda、API Gateway, Flutter
+    others: GitHub、Slack、Figma, Backlog
   - description: B2B サロンDXアプリ
-    term: 2023/09〜
+    term: 2023/09〜11
     members: 3〜5人
     role: プログラマー
-    assigned_for: プログラマーとして詳細設計や実装を担当しています。
-    achievement: Laravelを使った開発を担当しています。リファクタリングなどのコードベースの改善に課題意識を持って取り組んでいます。
+    assigned_for: プログラマーとして詳細設計や実装を担当しました。
+    achievement: Laravelを使った開発を担当しました。リファクタリングなどのコードベースの改善にも取り組みました。
     phase: 詳細設計、実装
     technology: PHP8系、Laravel9系、JavaScript、MySQL8系、Linux、Docker、DockerCompose, Amazon EC2
     others: GitHub、Slack、Figma

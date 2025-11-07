@@ -17,6 +17,9 @@
 - プログラミング
     - 特に Web プログラミングが得意です。サーバーサイドがメインですが、フロントエンドも対応可能です。
 
+- AIコーディング
+    - AIコーディングエージェントを使ってコードを書いています。Claude Code を使うことが多いですが、Codex、Cursor、CodeRabbit、Copilot を組み合わせて利用しています。
+
 - コードレビュー
     - 会社員時代には若手に対する教育も一部行っていました。
 
@@ -35,6 +38,9 @@
     - PHP と同じくらい長く使っています。
     - React、Next.js、React Native 等を使用した開発経験があります。
     - socket.io を使った WebSocket でのリアルタイムコミュニケーション Web アプリの開発経験があります。
+
+- Dart / Flutter
+    - Flutter を使った iOS, Android アプリの開発経験があります。
 
 ### 業務で使用したことのある言語
 
@@ -97,7 +103,7 @@
 ## B2B DXアプリプラットフォーム
 
 ### 期間
-2024/2〜
+2024/2〜2025/9
 
 ### 人数
 3〜5人
@@ -106,16 +112,16 @@
 アーキテクト、プログラマー
 
 ### 担当業務
-アプリケーションのマルチテナント化の設計、移行計画の策定、実装を担当しています。
+アプリケーションのマルチテナント化の設計、移行計画の策定、実装。Flutter で iOS, Android 両対応のアプリの開発・保守。
 
 ### 習得スキル・実績
-EC2上で動いているアプリケーションのECS Fargateへの移行を行いました。また、アプリケーションのマルチテナント化を行いました。
+EC2上で動いているアプリケーションのECS Fargateへの移行を行いました。また、アプリケーションのマルチテナント化を行いました。クライアントサイドの Flutter アプリを iOS, Android 両対応で開発しました。
 
 ### 参画フェーズ
 インフラ設計、実装
 
 ### 言語・OS・DB
-Laravel、PHP8系、JavaScript、MySQL8系、Linux、Docker、DockerCompose, Amazon EC2、Amazon ECS Fargate
+Laravel、PHP8系、JavaScript、MySQL8系、Linux、Docker、DockerCompose, Amazon EC2、Amazon ECS Fargate, Flutter
 
 ### その他ツール等
 GitHub、Slack、Figma
@@ -125,7 +131,7 @@ GitHub、Slack、Figma
 ## B2B サーバーレスAPI
 
 ### 期間
-2023/12〜
+2023/12〜2025/9
 
 ### 人数
 3〜5人
@@ -137,23 +143,23 @@ GitHub、Slack、Figma
 AWS設計、詳細設計、実装を担当しています。
 
 ### 習得スキル・実績
-NestJSを使った短納期でのサーバーレスAPIを立ち上げました。
+NestJSを使った短納期でのサーバーレスAPIを立ち上げました。Flutter で iPadOS アプリの開発も行いました。
 
 ### 参画フェーズ
 インフラ設計、詳細設計、実装
 
 ### 言語・OS・DB
-TypeScript、NestJS、AWS Lambda、API Gateway
+TypeScript、NestJS、AWS Lambda、API Gateway, Flutter
 
 ### その他ツール等
-GitHub、Slack、Figma
+GitHub、Slack、Figma, Backlog
 
 <div style="break-before: page"></div>
 
 ## B2B サロンDXアプリ
 
 ### 期間
-2023/09〜
+2023/09〜11
 
 ### 人数
 3〜5人
@@ -162,10 +168,10 @@ GitHub、Slack、Figma
 プログラマー
 
 ### 担当業務
-プログラマーとして詳細設計や実装を担当しています。
+プログラマーとして詳細設計や実装を担当しました。
 
 ### 習得スキル・実績
-Laravelを使った開発を担当しています。リファクタリングなどのコードベースの改善に課題意識を持って取り組んでいます。
+Laravelを使った開発を担当しています。リファクタリングなどのコードベースの改善に取り組みました。
 
 ### 参画フェーズ
 詳細設計、実装
