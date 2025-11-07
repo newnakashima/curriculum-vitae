@@ -85,7 +85,7 @@ projects:
     term: 2023/12〜2025/9
     members: 3〜5人
     role: アーキテクト、プログラマー
-    assigned_for: AWS設計、詳細設計、実装を担当しています。
+    assigned_for: AWS設計、詳細設計、実装を担当しました。
     achievement: NestJSを使った短納期でのサーバーレスAPIを立ち上げました。Flutter で iPadOS アプリの開発も行いました。
     phase: インフラ設計、詳細設計、実装
     technology: TypeScript、NestJS、AWS Lambda、API Gateway, Flutter
@@ -95,7 +95,7 @@ projects:
     members: 3〜5人
     role: プログラマー
     assigned_for: プログラマーとして詳細設計や実装を担当しました。
-    achievement: Laravelを使った開発を担当しています。リファクタリングなどのコードベースの改善に取り組みました。
+    achievement: Laravelを使った開発を担当しました。リファクタリングなどのコードベースの改善にも取り組みました。
     phase: 詳細設計、実装
     technology: PHP8系、Laravel9系、JavaScript、MySQL8系、Linux、Docker、DockerCompose, Amazon EC2
     others: GitHub、Slack、Figma
