@@ -1,10 +1,19 @@
+---
+pdf_options:
+    format: A4
+    margin: 20mm
+stylesheet: https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css
+body_class: markdown-body
+css: |-
+    .markdown-body { font-size: 14px; }
+---
 # 職務経歴書
 
 ## 個人情報
 
 | 名前 | 生年月日 | 性別 |
 | ---|---|--- |
-| newnakashima | 1983/09/05 | 男 |
+| 中島剛史 | 1983/09/05 | 男 |
 
 
 
@@ -63,6 +72,7 @@
     - Flask を使った Web アプリ開発で使用
     - AWS Lambda Function でのサーバーレス開発で使用
 
+
 ### よく使用するミドルウェア
 
 - MySQL
@@ -79,7 +89,6 @@
 
 - IIS
 
-<div style="height: 100vh"></div>
 ### よく使用する仮想環境
 
 - Docker
@@ -94,10 +103,14 @@
     - 特に、Fargate や Lambda を使うことが多いです。
     - VPC、RDS、EC2 なども使用できます。
 
+<div style="page-break-after: always;"></div>
+
+# 主な経歴
+
 ## 2021/01 - 合同会社設立
-- 法人を設立。
-- クライアントは前年から引き続き継続して受注。
-- 現在に至る。
+- 法人を設立（フリーランスの法人成り）。
+- 様々なクライアントのプロジェクトに携わり現在に至る。
+- 各プロジェクトの詳細はスキルシートを御覧ください。
 
 ## 2020/01 - 2020/12 フリーランス
 - フリーランスとして独立。
